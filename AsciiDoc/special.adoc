@@ -1,0 +1,14 @@
+
+== special 
+
+NOTE: note hits
+
+TIP: here is a tip
+
+IMPORTANT: this is important
+
+CAUTION:  be cautious
+
+WARNING: I warn you!
+
+
