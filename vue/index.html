@@ -1,0 +1,71 @@
+<html>
+
+<head>
+    <!-- for debug,  -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+    <!-- for production -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vue"></script> -->
+</head>
+
+
+
+<body>
+    <!-- use a template grammar, declaratively render data to DOM -->
+
+    <div id="app">
+        {{ message }}
+    </div>
+
+
+
+    <div id="app-2">
+        <span v-bind:title="message">
+            <!-- bind title here with message in js code -->
+            hover
+        </span>
+    </div>
+
+
+    <div id="app-3">
+        <p v-if="seen"> new you see me </p>
+    </div>
+
+    <div id="app-4">
+        <ol>
+            <li v-for="todo in todos">
+                {{ todo.text }}
+            </li>
+        </ol>
+    </div>
+
+    <div id='app-5'>
+        <p> {{ message }}</p>
+        <button v-on:click="reverseMessage">
+            rev message
+        </button>
+    </div>
+
+    <div id='app-6'>
+        <p> {{ message }}</p>
+        <input v-model="message">
+    </div>
+
+    <div id="app-7">
+        <ol>
+            <todo-item
+            v-for="item in groceryList"
+            v-bind:todo="item"
+            v-bind:key="item.id"
+            ></todo-item>
+        </ol>
+
+    </div>
+
+
+
+
+    <script src="index.js">
+    </script>
+</body>
+</html>
