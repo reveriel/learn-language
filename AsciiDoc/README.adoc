@@ -1,7 +1,15 @@
 AsciiDoc Markup Language
 ========================
 
-It's similar to Markdown, but more powerful and standardized.
+Reference: link:https://asciidoctor.org/docs/asciidoc-writers-guide/[AsciiDoc Writer's Guide]
+
+It's similar to Markdown, but more powerful.. Although it's has no official
+specification, it has a actively community and is constantly evolving.
+
+link:https://commonmark.org/[CommonMark]is an attempt to standardized Markdown.
+
+A bit inconvenient... You need to make some setting to enable some of its
+feature.. Emmmm. Render is also not very fast.
 
 Install some tools:
 
@@ -11,11 +19,11 @@ brew install asciidoctor
 
 `asciidoc` converts adoc to HTML or DocBook.
 `asciidoctor` seems more powerful. Basically do the same thing. But prettier.
-The syntax between them is a liitle different. see <<http, http markup>>
+The syntax between them is a little different. See <<http, http markup>>
 
 See link:https://asciidoctor.org/docs/asciidoc-asciidoctor-diffs/[asciidoc asciidoctor
 diffs]. asccidoctor tries to compliant with asciidoc by are different.
-My suggustion is, use asccidoctor which is new and active.
+My suggestion is, use asccidoctor which is new and active.
 
 See help
 ....
