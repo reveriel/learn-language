@@ -47,7 +47,7 @@ NOTE:
 
 ## marktex
 
-这样的做法就叫 Marktex 吧. 参见 [Makefile](../Makefile).
+这样的做法就叫 Marktex 吧. 参见 [Makefile](./Makefile).
 
 目前所有的 `.md` 文件都在根目录下, 编译时把从 `.md` 生成的 `.tex` 文件复制
 到 `latex/` 目录下, 把手写的 `.tex` 也复制过去. 在 `latex/` 目录下编译.
