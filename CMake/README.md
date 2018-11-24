@@ -32,7 +32,7 @@ set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -O0 -ggdb")
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O0 -ggdb")
 ```
 
-打印变量的值.
+打印变量的值. 这些是在执行 cmake 时打印, 不是 make 时.
 
 ``` cmake
 message([<mode>] "message to display" ...)
